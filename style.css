@@ -1,0 +1,106 @@
+body{
+    background-color: rgba(192, 192, 192, 0.775);
+    padding: 0;
+    margin: 0;
+    background: url(./img/kirpich2.jpg);
+    background-size: 1200px;
+}
+
+.wrapper {
+    width: 1000px;
+    background-color: rgba(180, 118, 216, 0.538);
+    margin: 0 auto;
+}
+
+h1 {
+    color: rgb(63, 12, 110);
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    font-size: 50px;
+}
+
+div {
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: rgba(229, 219, 240, 0.57);
+}
+
+header {
+    background-color: rgb(31, 168, 254);
+    padding-block: 25px;
+    border: 3px solid rgb(31, 120, 161);
+    border-radius: 5px;
+    background: url(./img/—Pngtree—modern\ double\ colors\ neon\ lights_1170045.png);
+    background-position: center;
+    background-size: 1000px 150px;
+}
+
+main {
+    padding: 10px;
+    overflow: hidden;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    font-size: 40px;
+    margin: auto;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+button {
+    background-color: rgba(100, 16, 157, 0.584);
+    font-size: larger;
+}
+
+a {
+    color: rgba(240, 248, 255, 0.699);
+}
+
+input {
+    margin-left: 10px;
+}
+
+p {
+    font-size: 30px;
+    margin-bottom: 0;
+    margin-top: auto;
+    font-family: 'Amatic SC', cursive;
+}
+
+.ul {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    margin-left: 300px;
+    font-family: 'Amatic SC', cursive;
+}
+
+ul {
+    font-size: 30px;
+    font-family: 'Amatic SC', cursive;
+}
+
+img {
+    border: 5px solid rgba(19, 68, 167, 0.201);
+    border-radius: 20px;
+    float: left;
+    margin-right: 10px;
+}
+
+footer {
+    text-align: center;
+    font-size: larger;
+    color: aliceblue;
+    padding: 30px;
+    background-color: rgba(17, 28, 57, 0.804);
+}
+
+.img {
+    float: right;
+}
