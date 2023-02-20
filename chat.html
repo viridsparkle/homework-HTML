@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">    
+    <script defer src="app.js"></script>
 </head>
 <body>
     <div class="wrapper">
@@ -16,13 +17,9 @@
             </div>
         </header>
         <h2>Задавайте вопросы!</h2>
-        <input type="text">
-        <button>Отправить</button>
-        <ul>
-            <li>Ты красивый</li>
-            <li>Откуда ты родом?</li>
-            <li>Я из Волгограда</li>
-        </ul>
+        <input id="message" type="text" placeholder="Введите ваше сообщение" value = "">
+        <button onclick="send()">Отправить</button><br>
+        <span id="out"></span>
         <nav>
             <button>
                 <a href="index.html">Главная страница</a>
